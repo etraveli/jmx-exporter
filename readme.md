@@ -4,7 +4,7 @@
 From openjdk:jre-alpine (specific version but to avoid updating to much)
 
 ## Usage
-`docker run -v [pathToYourConfig]:/opt/jmx_export/config/jmx_exporter.yml -P etraveli/jmx_exporter`
+`docker run -v [pathToYourConfig]:/opt/jmx_exporter/config/jmx_exporter.yml -P etraveli/jmx_exporter`
 
 It's setup with CMD, since it Alping you can use sh if you want to inspect the container.
 
